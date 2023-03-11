@@ -1,0 +1,10 @@
+{
+    "name": "Edward's Adblock",
+    "version": "1.0",
+    "description": "simple adblock that blocks banner ads",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+}
